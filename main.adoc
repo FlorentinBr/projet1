@@ -1,4 +1,4 @@
-= Bonjour ENSG !
+= Menu Payet (lol)
 
 An introduction to http://asciidoc.org[AsciiDoc].
 
