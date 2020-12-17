@@ -7,7 +7,8 @@ jobs:
     steps:
     - uses: actions/checkout@master
     - name: Compile
-      run : make
+    - run: sudo apt-get update && sudo apt-get install -y asciidoctor
+    - run : make
 
     - name: Publish
       uses: netlify/actions/cli@master
