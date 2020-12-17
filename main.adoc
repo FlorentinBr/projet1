@@ -1,11 +1,11 @@
 = Menu Payet (lol)
 
-An introduction to http://asciidoc.org[AsciiDoc].
+Pourquoi ils ont enlevé le comptoir à pates? 
 
 == First Section
 
-* item 1
-* item 2
+* Le coin frites
+* Le coin pizza du vendredi
 
 [source,bash]
-echo "On modifie le contenuuuuuu"
+echo "J'avais la flemme de mettre des images"
