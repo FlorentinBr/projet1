@@ -1,7 +1,9 @@
 name: majsite
 on: [push]
 jobs:
-  dire_bonjour:
+  publish:
     runs-on: ubuntu-20.04
     steps:
     - uses: actions/checkout@v2 # Récupère le contenu du dépôt correspondant au commit du workflow en cours
+    - run: make all
+    - run: netlify deploy --prod --dir=./dist/
